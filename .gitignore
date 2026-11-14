@@ -1,0 +1,35 @@
+# Data (anchored to the repo root so src/partida/data/ and tests/data/ stay tracked)
+/data/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Tool caches and reports
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+htmlcov/
+
+# Secrets and local config
+.env
+
+# Web
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
